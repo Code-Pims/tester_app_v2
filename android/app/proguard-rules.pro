@@ -1,0 +1,12 @@
+## Flutter wrapper
+ -keep class io.flutter.app.** { *; }
+ -keep class io.flutter.plugin.** { *; }
+ -keep class io.flutter.util.** { *; }
+ -keep class io.flutter.view.** { *; }
+ -keep class io.flutter.** { *; }
+ -keep class io.flutter.plugins.** { *; }
+ -keep class org.xmlpull.** { *; }
+ -keep,allowobfuscation,allowshrinking class com.google.gson.reflect.TypeToken
+ -keep,allowobfuscation,allowshrinking class * extends com.google.gson.reflect.TypeToken
+ -dontwarn io.flutter.embedding.**
+ -ignorewarnings
